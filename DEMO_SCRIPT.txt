@@ -1,0 +1,52 @@
+VIRALLY — 2 TO 3 MINUTE DEMO SCRIPT
+
+0:00 — PROBLEM
+"Founders usually find out whether an idea works after they spend time making it, distributing it and collecting real engagement. The problem is not that feedback does not exist. The problem is that different people react differently, and a generic AI opinion hides that disagreement."
+
+0:15 — PRODUCT
+"Virally is a multi agent audience simulation platform. I can put one business idea and its marketing creative into a room of distinct synthetic audience personas and see what each one is likely to do."
+
+0:30 — RUN THE SIMULATION
+Enter or load the demo scenario and click Run 18 agent simulation.
+
+Say:
+"The same concept is dispatched to 18 persona agents. Each has different novelty, social, trust, utility, price and visual preferences. A trend layer then changes the context in which the room reacts."
+
+0:55 — DASHBOARD
+Show:
+Virality Index
+Projected reach
+Share intent
+Purchase intent
+Reaction distribution
+Score drivers
+
+Say:
+"The output is not just a score. The dashboard shows the action distribution and the drivers behind the result. That makes the forecast inspectable."
+
+1:20 — AGENTS
+Open Agents.
+
+Say:
+"This is the key interaction. Maya, the Trend Hunter, can react very differently from Theo, the Skeptical Analyst. Virally is deliberately built around disagreement instead of one generic answer."
+
+1:40 — TRENDS
+Open Trends.
+
+Say:
+"The market context also changes. Trend momentum nudges persona receptivity rather than replacing the persona itself. This gives the simulation a way to model changing context."
+
+1:55 — PRODUCT RESEARCH
+Open Product Research.
+
+Say:
+"I also researched the product space before locking the workflow. The research compares participant based product discovery, synthetic research and behavioral simulation products, then maps what I learned into the actual Virally design: multi persona disagreement, reaction level outputs, transparent score drivers, trend context and a human validation layer."
+
+2:20 — TRUST
+Open Methodology.
+
+Say:
+"The important limitation is that synthetic audience behavior is directional. Virally is an early screening layer, not a replacement for real interviews, surveys or live market data. The human still decides whether to launch."
+
+2:35 — CLOSE
+"Virally turns an untested belief about a concept into a transparent, testable audience signal before real distribution spend."

@@ -1,0 +1,13 @@
+{
+  "name": "virally",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Virally — a multi-agent creative market simulator for predicting how audience personas may react to a product idea and marketing creative.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

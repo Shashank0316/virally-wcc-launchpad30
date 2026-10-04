@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#08090b" />
+  <meta name="description" content="Virally — multi-agent audience simulation for early market validation." />
+  <title>Virally — Audience Simulation Engine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" data-scroll="top"><span class="brand-mark">V</span><span>virally</span></a>
+    <nav class="top-nav" aria-label="Primary">
+      <a href="#how" data-scroll="how">How it works</a>
+      <a href="#signals" data-scroll="signals">Signals</a>
+      <a href="#app" data-scroll="app">Simulator</a>
+    </nav>
+    <button class="header-cta" data-open-app>Run simulation <span>↗</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-reveal">
+      <div class="hero-orbit orbit-a"></div>
+      <div class="hero-orbit orbit-b"></div>
+      <div class="hero-copy parallax" data-depth="0.16">
+        <div class="eyebrow"><span class="pulse"></span> multi agent market simulator</div>
+        <h1>Will your idea<br><span>travel?</span></h1>
+        <p>Virally puts your concept in front of a synthetic audience built from distinct tastes, habits, trust thresholds and social behavior — then turns the reactions into a directional market signal.</p>
+        <div class="hero-actions">
+          <button class="primary-btn" data-open-app>Simulate an idea <span>→</span></button>
+          <a class="text-btn" href="#how" data-scroll="how">See the system <span>↓</span></a>
+        </div>
+        <div class="hero-note">Forecast, not a promise. Validate with real users before spending money.</div>
+      </div>
+      <div class="hero-visual parallax" data-depth="0.34">
+        <div class="signal-card glass">
+          <div class="signal-top"><span>Live audience</span><span>18 agents</span></div>
+          <div class="signal-ring"><div class="ring-core"><strong>74</strong><small>virality index</small></div></div>
+          <div class="signal-grid">
+            <div><span>Likes</span><b>67%</b></div><div><span>Shares</span><b>21%</b></div><div><span>Trust</span><b>82%</b></div><div><span>Intent</span><b>68%</b></div>
+          </div>
+        </div>
+        <div class="float-chip chip-a">↗ 2.8× projected reach</div>
+        <div class="float-chip chip-b">AI agents responding</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Signals">
+      <div>18 distinct personas</div><div>6 trend layers</div><div>90+ interaction signals</div><div>1 directional verdict</div><div>Human stays in control</div>
+    </section>
+
+    <section id="how" class="story section-reveal">
+      <div class="section-kicker">01 / THE ENGINE</div>
+      <div class="story-grid">
+        <div class="story-heading"><h2>Not one AI opinion.<br><em>A room full of them.</em></h2></div>
+        <div class="story-body"><p>Virally models audience diversity on purpose. A trend obsessed early adopter should not react like a price sensitive buyer, and neither should sound like a generic language model.</p><p>Each agent receives the same creative but evaluates it through its own utility, novelty, trust, social and visual preferences. The system records what each one would most likely do next.</p></div>
+      </div>
+      <div class="pipeline" id="pipeline">
+        <div class="pipeline-node active"><span>01</span><strong>Idea</strong><small>brief + creative</small></div><div class="pipeline-line"></div>
+        <div class="pipeline-node"><span>02</span><strong>Personas</strong><small>traits + habits</small></div><div class="pipeline-line"></div>
+        <div class="pipeline-node"><span>03</span><strong>Reactions</strong><small>like / comment / share</small></div><div class="pipeline-line"></div>
+        <div class="pipeline-node"><span>04</span><strong>Trends</strong><small>momentum + fit</small></div><div class="pipeline-line"></div>
+        <div class="pipeline-node"><span>05</span><strong>Signal</strong><small>reach + intent</small></div>
+      </div>
+    </section>
+
+    <section id="signals" class="signals section-reveal">
+      <div class="section-kicker">02 / THE OUTPUT</div>
+      <div class="signals-head"><h2>See <em>why</em> a concept moves.</h2><p>Every score is decomposable into the individual reactions behind it.</p></div>
+      <div class="dashboard-preview">
+        <div class="preview-sidebar"><div class="brand mini"><span class="brand-mark">V</span><span>virally</span></div><div class="side-label">Overview</div><div class="side-item selected">▦ Dashboard</div><div class="side-label">Analysis</div><div class="side-item">◈ Agents</div><div class="side-item">◇ Trends</div><div class="side-item">⌁ History</div></div>
+        <div class="preview-main">
+          <div class="preview-title"><div><span class="muted">Overview /</span> Simulation</div><span class="live-dot">● live model</span></div>
+          <div class="preview-cards"><div><span>Virality index</span><strong>74</strong><b>+9.8%</b></div><div><span>Projected reach</span><strong>2.8×</strong><b>high fit</b></div><div><span>Share intent</span><strong>21%</strong><b>+4.4%</b></div></div>
+          <div class="preview-chart"><div class="chart-caption"><span>Audience reaction curve</span><span>current scenario</span></div><svg viewBox="0 0 900 260" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-opacity=".36"/><stop offset="1" stop-opacity="0"/></linearGradient></defs><path d="M0 210 C90 190 120 225 190 185 S300 80 370 145 S475 222 555 138 S670 86 730 121 S810 190 900 70 V260 H0Z" fill="url(#fill)"/><path class="chart-line" d="M0 210 C90 190 120 225 190 185 S300 80 370 145 S475 222 555 138 S670 86 730 121 S810 190 900 70" fill="none" stroke-width="2.4"/></svg><div class="chart-axis"><span>0m</span><span>15m</span><span>30m</span><span>45m</span><span>60m</span></div></div>
+          <div class="preview-table"><div class="row head"><span>Persona</span><span>Reaction</span><span>Intent</span><span>Confidence</span></div><div class="row"><span>Maya — Trend Hunter</span><span class="tag green">Share</span><span>86%</span><span>92%</span></div><div class="row"><span>Arjun — Pragmatic Buyer</span><span class="tag purple">Save</span><span>77%</span><span>88%</span></div><div class="row"><span>Theo — Skeptical Analyst</span><span class="tag red">Comment</span><span>41%</span><span>93%</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement section-reveal"><div class="statement-inner"><div class="section-kicker">03 / THE IDEA</div><h2>Turn “I think this will work” into a <em>testable signal.</em></h2><button class="primary-btn" data-open-app>Open the simulator <span>→</span></button></div></section>
+
+    <section id="app" class="app-shell section-reveal">
+      <div class="app-chrome">
+        <aside class="app-sidebar">
+          <div class="app-brand"><span class="brand-mark">V</span><div><b>Virally</b><small>audience intelligence</small></div></div>
+          <div class="side-group"><div class="side-label">Overview</div><button class="app-nav active" data-tab="dashboard">▦ <span>Dashboard</span></button></div>
+          <div class="side-group"><div class="side-label">Analysis</div><button class="app-nav" data-tab="simulate">◌ <span>Simulate</span></button><button class="app-nav" data-tab="agents">◒ <span>Agents</span></button><button class="app-nav" data-tab="trends">⌁ <span>Trends</span></button></div>
+          <div class="side-group"><div class="side-label">Evidence</div><button class="app-nav" data-tab="research">◫ <span>Product Research</span></button><button class="app-nav" data-tab="method">◎ <span>Methodology</span></button></div>
+          <div class="sidebar-bottom"><div class="model-badge"><span class="pulse"></span><div><b>Local simulation engine</b><small>18 personas · 6 trend layers</small></div></div></div>
+        </aside>
+        <section class="app-main">
+          <div class="app-topbar"><div class="crumb">Overview <span>/</span> <b id="tabTitle">Dashboard</b></div><div class="top-actions"><span class="health"><i></i> API healthy</span><button class="icon-btn" id="resetBtn" title="Reset analysis">↻</button></div></div>
+          <div class="app-content">
+            <section id="view-dashboard" class="view active">
+              <div class="view-head"><div><div class="eyebrow">Live simulation workspace</div><h2>Market signal, unpacked.</h2><p>Run a concept through the audience engine and inspect the why behind every number.</p></div><button class="primary-btn" data-tab="simulate">New simulation <span>→</span></button></div>
+              <div class="metric-grid" id="metricGrid"><div class="metric-card"><span>Virality index</span><strong>—</strong><small>Run a simulation</small></div><div class="metric-card"><span>Projected reach</span><strong>—</strong><small>Directionally estimated</small></div><div class="metric-card"><span>Share intent</span><strong>—</strong><small>Across 18 personas</small></div><div class="metric-card"><span>Purchase intent</span><strong>—</strong><small>Scenario estimate</small></div></div>
+              <div class="dashboard-grid"><div class="panel wide"><div class="panel-head"><div><span class="muted">Reaction distribution</span><h3>What would the room do?</h3></div><span class="panel-pill" id="verdictPill">No run yet</span></div><div id="donutChart" class="donut-wrap empty"><div class="donut-center"><b>—</b><span>actions</span></div></div><div class="legend" id="actionLegend"></div></div><div class="panel"><div class="panel-head"><div><span class="muted">Signal breakdown</span><h3>Score drivers</h3></div></div><div id="drivers" class="driver-list empty-state"><p>Run a simulation to reveal the strongest drivers.</p></div></div></div>
+              <div class="panel"><div class="panel-head"><div><span class="muted">Simulation history</span><h3>Recent concepts</h3></div><button class="subtle-btn" data-tab="simulate">Run another</button></div><div id="historyTable" class="history-table"></div></div>
+            </section>
+
+            <section id="view-simulate" class="view">
+              <div class="view-head"><div><div class="eyebrow">01 / Scenario</div><h2>Put an idea through the room.</h2><p>Keep the creative concrete. The engine reacts to the exact words, claims and context you provide.</p></div></div>
+              <div class="simulate-grid"><form id="simulateForm" class="panel form-panel"><div class="field"><label for="idea">Business idea <span>*</span></label><textarea id="idea" rows="4" placeholder="Example: a 10 minute AI meal planner for students that builds a weekly grocery list under a fixed budget"></textarea></div><div class="field"><label for="creative">Marketing script / creative context</label><textarea id="creative" rows="6" placeholder="Paste the script, hook, video description, offer, proof point, CTA or creative direction. Example: “Show a student opening the fridge, then the app builds a ₹900 plan in seconds…”"></textarea></div><div class="form-row"><div class="field"><label for="audience">Target audience</label><input id="audience" placeholder="College students in India" /></div><div class="field"><label for="channel">Primary channel</label><select id="channel"><option>short form social</option><option>creator content</option><option>landing page</option><option>paid social</option><option>email</option></select></div></div><div class="form-foot"><div><span class="tiny">Your inputs are processed locally by the demo engine.</span><br><button class="subtle-btn demo-btn" type="button" id="demoBtn">Load demo scenario</button></div><button class="primary-btn" type="submit" id="runBtn">Run 18 agent simulation <span>→</span></button></div></form><div class="panel explain-panel"><div class="mini-kicker">THE PIPELINE</div><div class="timeline"><div class="timeline-item"><b>01</b><div><strong>Normalize</strong><p>Concept and creative are converted into signals.</p></div></div><div class="timeline-item"><b>02</b><div><strong>Dispatch</strong><p>Every persona receives the same scenario with different weights.</p></div></div><div class="timeline-item"><b>03</b><div><strong>React</strong><p>Like, comment, share, save, skip and purchase intent are scored.</p></div></div><div class="timeline-item"><b>04</b><div><strong>Adapt</strong><p>Trend momentum shifts how receptive each persona is right now.</p></div></div><div class="timeline-item"><b>05</b><div><strong>Aggregate</strong><p>Actions roll up into reach, engagement and a directional verdict.</p></div></div></div></div></div>
+              <div id="resultStrip" class="result-strip hidden"></div>
+            </section>
+
+            <section id="view-agents" class="view"><div class="view-head"><div><div class="eyebrow">02 / Audience room</div><h2>18 opinions. 18 ways to disagree.</h2><p>Explore the synthetic audience behind the simulation.</p></div><div class="search-box"><span>⌕</span><input id="agentSearch" placeholder="Search persona, archetype or interest" /></div></div><div id="agentGrid" class="agent-grid"></div></section>
+            <section id="view-trends" class="view"><div class="view-head"><div><div class="eyebrow">03 / Market context</div><h2>The room changes with the market.</h2><p>Trend layers nudge reactions without replacing the personas themselves.</p></div></div><div id="trendGrid" class="trend-grid"></div></section>
+            <section id="view-research" class="view">
+              <div class="view-head"><div><div class="eyebrow">04 / Product research</div><h2>Evidence behind the product.</h2><p>Documented research, competitive framing and the product decisions that shaped Virally.</p></div><span class="panel-pill" id="researchUpdated">Updated 04 Oct 2026</span></div>
+              <div class="research-hero panel"><div><div class="mini-kicker">RESEARCH OBJECTIVE</div><h3 id="researchObjective">—</h3><p class="research-note">This evidence base is designed for hackathon validation and product decisions. It is deliberately transparent about what is known, inferred and still needs primary validation.</p></div><div class="research-stats"><div><strong id="researchSourceCount">0</strong><span>research sources</span></div><div><strong>6</strong><span>product decisions</span></div><div><strong>0</strong><span>fabricated interviews</span></div></div></div>
+              <div class="research-grid"><div class="panel"><div class="mini-kicker">METHOD</div><h3>How I researched it</h3><div id="researchMethods" class="research-list"></div></div><div class="panel"><div class="mini-kicker">FINDINGS</div><h3>What the research changed</h3><div id="researchFindings" class="research-list"></div></div></div>
+              <div class="panel research-wide"><div class="panel-head"><div><span class="muted">Competitive framing</span><h3>Where Virally fits</h3></div><span class="panel-pill">Adjacent category scan</span></div><div id="competitorGrid" class="competitor-grid"></div></div>
+              <div class="research-grid"><div class="panel"><div class="mini-kicker">PRODUCT TRANSLATION</div><h3>Decisions encoded in the build</h3><div id="productDecisions" class="decision-list"></div></div><div class="panel research-limit"><div class="mini-kicker">LIMITATION</div><h3>What this does not prove</h3><p id="researchLimitation">—</p><div class="formula">Synthetic signal ≠ human validation</div></div></div>
+              <div class="panel validation-panel"><div class="panel-head"><div><span class="muted">Primary validation next</span><h3>Five questions for real users</h3></div><span class="panel-pill">Optional extension</span></div><p>Use these questions with founders, marketers or creators if you can collect real responses before submission. Store the responses separately from synthetic results.</p><div id="validationQuestions" class="question-list"></div></div>
+            </section>
+
+            <section id="view-method" class="view"><div class="view-head"><div><div class="eyebrow">05 / Trust & method</div><h2>A forecast you can interrogate.</h2><p>Virally is designed to expose assumptions instead of hiding them behind one magic score.</p></div></div><div class="method-grid"><div class="panel"><div class="mini-kicker">MODEL</div><h3>Persona weighted scoring</h3><p>Each agent has explicit traits for novelty, social behavior, price sensitivity, trust, utility and visual responsiveness. The same creative can produce very different reactions across the room.</p><div class="formula">Signal = persona fit × creative fit × trend momentum</div></div><div class="panel"><div class="mini-kicker">AGENT ACTIONS</div><div class="check-list"><div>✓ Like intent</div><div>✓ Comment intent</div><div>✓ Share intent</div><div>✓ Save intent</div><div>✓ Skip probability</div><div>✓ Purchase intent</div></div></div><div class="panel"><div class="mini-kicker">RESPONSIBLE USE</div><h3>Human decides.</h3><p>The output is a directional simulation, not a substitute for user interviews, experiments or real analytics. Keep humans in the decision loop and validate before launch spend.</p></div></div></section>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div><span class="brand-mark">V</span><b>virally</b></div><span>Prototype for WCC Launchpad 30 · Agentic AI</span></footer>
+  <script src="/app.js"></script>
+</body>
+</html>

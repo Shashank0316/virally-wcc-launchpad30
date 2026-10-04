@@ -1,0 +1,50 @@
+VIRALLY — WCC LAUNCHPAD 30 SUBMISSION DRAFT
+
+TRACK
+Agentic AI
+
+PROJECT NAME
+Virally
+
+WHAT PROBLEM ARE YOU SOLVING?
+Founders and marketers often launch ideas and campaigns without knowing how different audience segments are likely to react before real distribution begins.
+
+EXPLAIN THE PROBLEM IN DETAIL
+Early stage teams routinely make launch decisions using intuition, a small circle of opinions, or generic engagement benchmarks. Those inputs can miss how price sensitive buyers, early adopters, skeptical users, visual audiences and community driven users react differently to the same concept. This makes iteration slower and can turn avoidable messaging mistakes into wasted creative spend, weak launches and poor reach.
+
+WHAT IS YOUR SOLUTION?
+Virally is a multi agent audience simulation platform. A user enters a business idea and marketing script or creative context. The system dispatches the same scenario to multiple synthetic audience agents, each with distinct interests, traits, habits and trust thresholds. Each agent predicts actions such as Like, Comment, Share, Save, Skip and Purchase Intent. A trend layer adjusts receptivity using current market signals, then an aggregation engine produces a directional Virality Index, projected reach signal, engagement, purchase intent, confidence and actionable recommendations. The user can inspect the individual agent reactions instead of trusting a single opaque score.
+
+WHO ARE YOUR TARGET USERS?
+Startup founders, product marketers, growth teams, creators, student builders and small businesses testing new ideas or marketing creatives before investing in full production or distribution.
+
+WHAT MAKES IT DISTINCTIVE OR ORIGINAL?
+Virally is built around disagreement. Instead of asking one generic AI to predict whether an idea will succeed, it creates a room of distinct audience personas with different decision rules and lets their reactions form the signal. Trend momentum changes the room over time, and every final score remains decomposable into individual persona reactions. This makes the prediction easier to interrogate, compare and improve.
+
+TECH STACK, MODELS AND APIS USED
+Frontend: HTML, CSS, JavaScript with responsive dashboard UI, SVG data visualisation, IntersectionObserver and scroll driven parallax.
+Backend: Node.js HTTP server with a transparent multi agent simulation engine and JSON persistence.
+Models: Persona weighted scoring model with novelty, social, price sensitivity, trust, utility and visual responsiveness features; deterministic seeded variation for repeatable demo behaviour.
+APIs: REST endpoints exposed locally by the Virally backend for agents, trends, history, health and analysis.
+
+PROMPT ARCHITECTURE AND AI WORKFLOW
+In the current hackathon demo, the workflow is implemented as an inspectable local simulation so the judges can run it without external API keys. The architecture mirrors an agentic pipeline: normalize the business idea and creative, dispatch the same scenario to specialized persona agents, score each agent’s likely actions, apply trend momentum, then aggregate the room into a decision support report. A future LLM layer can be inserted at the agent reasoning stage without changing the dashboard or aggregation contract.
+
+AGENTS, CHAINS OR EVALUATION METHODS
+18 persona agents plus a trend adaptation layer and aggregator. Evaluation is based on explicit per persona action probabilities, persona relevance, trend fit, confidence, engagement, reach, trust and purchase intent. The output is a directional forecast and must be validated against real audience data.
+
+PROJECT LINKS
+GitHub repository: ADD PUBLIC GITHUB URL
+Live deployed project: ADD PUBLIC DEPLOYMENT URL
+Demo video: ADD UNLISTED YOUTUBE OR DRIVE URL
+
+SHASHANK PERSONAL CONTRIBUTION — CERTIFICATE READY
+Conducted the product research and translated it into the build by mapping the pre launch validation workflow, studying adjacent product research and behavioral simulation tools, defining the target user and job to be done, and turning the findings into distinct audience personas, reaction actions, trend context and transparent score drivers. Built the core Virally frontend and backend workflow, including the scroll driven landing page, responsive analytics dashboard, simulator, persona explorer, product research evidence page and trend intelligence views. Implemented the multi agent scoring engine and API integration so simulation results update the Virality Index, reaction distribution, score drivers, persona reactions and history in real time.
+
+SHASHANK ROLES TO SELECT
+Frontend
+Backend
+AI / ML
+Design / UI UX
+Product / Research
+Presentation / Demo

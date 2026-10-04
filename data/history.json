@@ -1,0 +1,47 @@
+[
+  {
+    "id": "demo-1",
+    "createdAt": "2026-10-04T09:30:00Z",
+    "name": "FocusFlow",
+    "score": 76,
+    "verdict": "Promising",
+    "reach": 48,
+    "shares": 18
+  },
+  {
+    "id": "demo-2",
+    "createdAt": "2026-10-04T12:10:00Z",
+    "name": "EcoCart",
+    "score": 69,
+    "verdict": "Promising",
+    "reach": 41,
+    "shares": 13
+  },
+  {
+    "id": "demo-3",
+    "createdAt": "2026-10-04T15:20:00Z",
+    "name": "TutorLoop",
+    "score": 83,
+    "verdict": "Strong hit",
+    "reach": 56,
+    "shares": 24
+  },
+  {
+    "id": "8672fee6-e41d-4b4a-b4b7-e6e298e83315",
+    "createdAt": "2026-10-04T16:34:13.089Z",
+    "name": "A 10 minute AI meal planner fo",
+    "score": 75,
+    "verdict": "Promising",
+    "reach": 97,
+    "shares": 56
+  },
+  {
+    "id": "a40dcf8e-b74b-4444-80f5-5cab6cce2c7b",
+    "createdAt": "2026-10-04T16:35:14.325Z",
+    "name": "A 10 minute AI meal planner fo",
+    "score": 75,
+    "verdict": "Promising",
+    "reach": 97,
+    "shares": 56
+  }
+]
